@@ -9,7 +9,7 @@ public class Main {
         int firstStudentMarks = 88; //camelCase notaion
         System.out.println("first student marks: " + firstStudentMarks);
 
-
+        
 
 
 

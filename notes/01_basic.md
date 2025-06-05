@@ -41,13 +41,41 @@ When you run the Java program, Java Compiler first compiles your code to bytecod
 
 ### boolean 
 - size : 1 bit 
-- default : false
+- default: false
 - Ex: Store true or false values
 
 ### byte
-- size : 1byte / 8byte
+- size : 1byte / 8bites
 - Default: 0
 - Ex: Stores whole numbers from -128 to 127
 
 ### short 
-- size
+- size : 2byte / 16bits
+- Default: 0
+- Ex.Stores whole numbers from -32,768 to 32,767
+
+### int
+- size : 4byte / 32bits
+- Default: 0
+- Ex.Stores whole numbers from -2,147,483,648 to 2,147,483,647
+
+### long
+- size : 8byte / 64bits
+- Default: 0L
+- Ex.Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+### float
+- size : 4byte / 32bits
+- Default: 0.0f
+- Ex.Stores fractional numbers. Sufficient fir storing 6 to 7 decimal digits
+
+### double
+- size : 8byte / 64bits
+- Default: 0.0d
+- Ex.Stores fractional numbers. Sufficient fir storing 15 decimal digits
+
+### char
+- size : 2byte / 16bits
+- Default: '\u0000'
+- Ex.Stores a single character/letter or ASCII values
+

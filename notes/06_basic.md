@@ -10,3 +10,5 @@
 ## Nested if-else statements
 - In java, we have an if...else..if ladder, that can be used to execute one block of code among multiple other blocks.
 
+## Java Switch Statement
+- in this case type  but same as if else if

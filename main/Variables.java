@@ -32,7 +32,9 @@ public class Variables {
         System.out.println("value of pi is on update form : " + pi);
 
         // char store a single character/letter or ASCII values
-        char character = 'q'; // single cot ('') is for character and double cot ("") for string remember that
+        char character = 'q'; // single cot ('') is for character and double cot ("") for string remember that one think is important only one can hold only
         System.out.println("character is: "+ character);
+
+
     }
 }

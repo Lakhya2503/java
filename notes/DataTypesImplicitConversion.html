@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ 
+        startOnLoad: true,
+        theme: 'default',
+        flowchart: { 
+          useMaxWidth: true,
+          htmlLabels: true,
+          curve: 'basis'
+        }
+      });
+    </script>
+      <style>
+        body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 100px  ;
+          height: 95vh;
+          background: white;
+          color: black;
+        }
+  .container {
+      display: flex;
+      gap:30px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+
+.bucket1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 70px;
+	height: 70px;
+  background-color: red;
+  border-radius: 10px;
+    font-weight: 700;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+
+
+
+
+.bucket2{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90px;
+	height: 90px;
+  background-color: red;
+  border-radius: 10px;
+    font-weight: 700;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.bucket3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 110px;
+	height: 110px;
+  background-color: red;
+  border-radius: 10px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="mermaid">
+      graph TD
+        %% Main Type Hierarchy
+        A[byte] --> B[short]
+        B --> C[int]
+        C --> D[long]
+        D --> E[float]
+        E --> F[boolean]
+        E --> G[double]
+        
+        %% Alternative Paths
+        C --> E
+        C --> G
+        
+        %% Special Case
+        H[char] --> C
+        
+        %% Styling
+        classDef numeric fill:#e6f3ff,stroke:#0066cc,stroke-width:2px
+        classDef special fill:#ffe6e6,stroke:#cc0000
+        classDef boolean fill:#e6ffe6,stroke:#009900
+        
+        class A,B,C,D,E,G numeric
+        class H special
+        class F boolean
+    </div>  
+
+    <div class="container">
+       <div class="bucket1">
+        <p>short</p>
+    </div>
+       <div class="bucket2">
+      <p>int</p>
+    </div>
+       <div class="bucket3">
+       <p> long</p>
+    </div>
+    </div>
+
+  </body>
+</html>

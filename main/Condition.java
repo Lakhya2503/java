@@ -43,16 +43,16 @@ public class Condition {
 //        boolean card = true;
 //        boolean cash = false;
 //        int carrot = 20;
-//        int cilly = 10;
+//        int cily = 10;
 //        int pineapple = 110;
 
-//         System.out.print("What do You won't, Sir..? (cilly🌶️, carrot🥕, pineapple🍍): ");
+//         System.out.print("What do You won't, Sir..? (cily🌶️, carrot🥕, pineapple🍍): ");
 //        String shoppingBag = sc.nextLine().toLowerCase();
 
-//        if(shoppingBag.equals("carrot")|| shoppingBag.equals("cilly")||shoppingBag.equals("pineapple")) {
+//        if(shoppingBag.equals("carrot")|| shoppingBag.equals("cily")||shoppingBag.equals("pineapple")) {
 
 //            int price = shoppingBag.equals("carrot") ? carrot :
-//                         shoppingBag.equals("cilly") ? carrot :
+//                         shoppingBag.equals("cily") ? carrot :
 //                         pineapple;
 
 

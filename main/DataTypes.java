@@ -91,21 +91,20 @@ public class DataTypes {
 
 //---------------------------------------------------------------------------------------------------
 
-//                             Primitive types store actual values directly in memory
-
-//                            Reference types store references (memory addresses) to objects
+//             Primitive types store actual values directly in memory
 //
-//                            Default values:
+//            Reference types store references (memory addresses) to objects
 //
-//                            Numeric primitives: 0
+//            Default values:
 //
-//                            boolean: false
+//            Numeric primitives: 0
 //
-//                            char: '\u0000'
+//            boolean: false
 //
-//                            Reference types: null
+//            char: '\u0000'
+//
+//            Reference types: null
 
 //---------------------------------------------------------------------------------------------------
-
 
 }

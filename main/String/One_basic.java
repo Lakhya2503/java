@@ -1,6 +1,6 @@
 package String;
 
-public class one_basic {
+public class One_basic {
     public static void main(String [] args){
 
         CommonFileStudent student1 = new CommonFileStudent();

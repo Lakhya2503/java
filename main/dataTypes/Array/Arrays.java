@@ -1,3 +1,5 @@
+package dataTypes;
+
 public class Arrays {
         public static void main (String [] args){
 //            int [] arr1 = new int[15];

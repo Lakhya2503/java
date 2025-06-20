@@ -1,4 +1,4 @@
-package String;
+package dataTypes.String;
 
 public class CommonFileStudent {
     String name;

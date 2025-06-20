@@ -16,17 +16,17 @@ public class likedlist {
 //    // Search in O(n)
 //
 //     class Node{
-//         String data;
+//         dataTypes.String data;
 //         Node next;
 //
-//         Node(String data){
+//         Node(dataTypes.String data){
 //             this.data = data;
 //             this.next = null;
 //             size++;
 //         }
 //     }
 //
-//     public void addFirst(String data){
+//     public void addFirst(dataTypes.String data){
 //         Node newNode = new Node(data);
 //         if (head == null) {
 //                head = newNode;
@@ -37,7 +37,7 @@ public class likedlist {
 //         head = newNode;
 //     }
 //
-//     public  void addLast(String data) {
+//     public  void addLast(dataTypes.String data) {
 //         Node newNode = new Node(data);
 //         if (head == null) {
 //             head = newNode;
@@ -100,7 +100,7 @@ public class likedlist {
 //        return size;
 //    }
 //
-//    public static void main(String[] args) {
+//    public static void main(dataTypes.String[] args) {
 //            likedlist list = new likedlist();
 //            list.addFirst("a");
 //            list.addFirst("is");

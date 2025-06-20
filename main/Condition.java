@@ -12,11 +12,11 @@ public class Condition {
 //-------------------------------------   markshit ex. ------------------------------------------
 
 //        System.out.print("Enter Your Marks (10 to 100): ");
-//        String gradeA = "Excellent";
-//        String gradeB = "Very Good";
-//        String gradeC = "Good";
-//        String gradeD = "Pass";
-//        String gradeE = "Fail";
+//        dataTypes.String gradeA = "Excellent";
+//        dataTypes.String gradeB = "Very Good";
+//        dataTypes.String gradeC = "Good";
+//        dataTypes.String gradeD = "Pass";
+//        dataTypes.String gradeE = "Fail";
 
 //        int marks =  sc.nextInt();
 //        if (marks <= 100 && marks >= 90) {
@@ -47,7 +47,7 @@ public class Condition {
 //        int pineapple = 110;
 
 //         System.out.print("What do You won't, Sir..? (cilly🌶️, carrot🥕, pineapple🍍): ");
-//        String shoppingBag = sc.nextLine().toLowerCase();
+//        dataTypes.String shoppingBag = sc.nextLine().toLowerCase();
 
 //        if(shoppingBag.equals("carrot")|| shoppingBag.equals("cilly")||shoppingBag.equals("pineapple")) {
 
@@ -57,7 +57,7 @@ public class Condition {
 
 
 //                System.out.print("How to pay the bill sir..? (cash 💰  or card 💳): ");
-//                String cashOrCard = sc.nextLine().toLowerCase();
+//                dataTypes.String cashOrCard = sc.nextLine().toLowerCase();
 
 //                if (cashOrCard.equals("card")){
 //                    System.out.println("you'll pay for "+ shoppingBag + "  Rs. " + price + "/-");

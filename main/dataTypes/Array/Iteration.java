@@ -1,8 +1,10 @@
+package dataTypes.Array;
+
 import java.util.Scanner;
 public class Iteration {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Iteration
+        // dataTypes.Array.Iteration
         //for loop
 
 //        System.out.print("Enter a number in 1 to 10: ");

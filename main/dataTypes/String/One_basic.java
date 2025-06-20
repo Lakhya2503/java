@@ -1,4 +1,4 @@
-package String;
+package dataTypes.String;
 
 public class One_basic {
     public static void main(String [] args){

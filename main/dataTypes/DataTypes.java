@@ -34,16 +34,16 @@
 ////---------------------------------------------------------------------------------------------------
 //
 ////II. Reference Data Types
-////    1.String
+////    1.dataTypes.String
 //
-//            String myString = "Hello World";  // Sequence of characters, double quotes
+//            dataTypes.String myString = "Hello World";  // Sequence of characters, double quotes
 //
 //
 ////---------------------------------------------------------------------------------------------------
 //
-//// 2.Arrays
+//// 2.dataTypes.Arrays
 //            int[] myIntArray = {1, 2, 3};          // Array of integers
-//            String[] myStringArray = {"A", "B"};    // Array of strings
+//            dataTypes.String[] myStringArray = {"A", "B"};    // Array of strings
 //
 //
 ////---------------------------------------------------------------------------------------------------
@@ -56,14 +56,14 @@
 //
 //
 //// 4.Interfaces
-//            List<String> myList = new ArrayList<>();  // List interface implementation
+//            List<dataTypes.String> myList = new ArrayList<>();  // List interface implementation
 //
 //
 ////---------------------------------------------------------------------------------------------------
 //
 //
 //    public class DataTypesExample {
-//        public static void main(String[] args) {
+//        public static void main(dataTypes.String[] args) {
 //            // Primitive types
 //            byte age = 25;
 //            short population = 30000;
@@ -77,7 +77,7 @@
 //            boolean isJavaFun = true;
 //
 //            // Reference types
-//            String message = "Learning Java Data Types";
+//            dataTypes.String message = "Learning Java Data Types";
 //            int[] numbers = {1, 2, 3, 4, 5};
 //
 //            System.out.println("Age: " + age);
